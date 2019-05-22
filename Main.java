@@ -18,6 +18,7 @@ public class Main {
     }
     
     public static int sumPositive(int max){
+        if(max == 0) return 1;
         int sum = 0;
         for(int i=1; i<=max; i++){
             sum += i; 
